@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>School Website</title>
+  <style>
+    body {
+      background-color: lightblue;
+      color: black;
+    }
+    h1 {
+      color: red;
+    }
+  </style>
+  <script/>
+  function scrollToSection(sectionId) {
+      document.getElementById(sectionId).scrollIntoView({ behavior: 'smooth' });
+    }
+  </script>
+</head>
+<body>
+
+  <h1>Welcome to Faulu School</h1>
+  <a href="#about">About Us</a>
+  <a href="#academics">Academics</a>
+  <a href="#admissions">Admissions</a>
+  <a href="#faculty">Faculty</a>
+  <a href="#students">Students</a>
+  <a href="#parents">Parents</a>
+  <a href="#events">Events</a>
+  <a href="#contact">Contact</a>
+
+  <!-- About Us Section -->
+  <section id="about">
+    <h2>About Us</h2>
+    <p>   <p>Welcome to our school, where education meets excellence. Our mission is to enable students achieve their true potential in a happy and safe environment</p>
+    <p>At Faulu School, we are dedicated to providing a nurturing learning environment that fosters academic and personal growth</p>
+    <p>Our Vision:</p>
+    <ul>
+      <li>Fostering a love for learning and critical thinking</li>
+      <li>Building a diverse and inclusive community</li>
+    </ul>
+    <p>Our Values:</p>
+    <ul>
+      <li>Excellence</li>
+      <li>Integrity</li>
+      <li>Respect</li>
+      <li>Community</li>
+    </ul></p>
+    <!-- Add about us content and images here -->
+  </section>
+
+  <!-- Academics Section -->
+  <section id="academics">
+    <h2>Academics</h2>
+    <p>At Faulu School, we offer a comprehensive and enriching academic experience designed to empower students for success</p>
+    <h3>Our Programs</h3>
+    <p>We provide a range of academic programs catering to diverse interests and learning styles. These include:</p>
+    <ul>
+      <li>Primary Education</li>
+      <li>Middle School</li>
+      <li>High School</li>
+    </ul>
+    <h3>Curriculum</h3>
+    <p>Our curriculum is carefully crafted to meet educational standards while promoting critical thinking, creativity, and practical skills. Subjects include:</p>
+    <ul>
+      <li>Mathematics</li>
+      <li>Science</li>
+      <li>Literature</li>
+      <!-- Add other subjects -->
+    </ul>
+    <h3>Teaching Approach</h3>
+    <p>Our dedicated faculty employs innovative teaching methods, ensuring an engaging and supportive learning environment. We focus on:</p>
+    <ul>
+      <li>Interactive Classes</li>
+      <li>Project-Based Learning</li>
+      <li>Extracurricular Activities</li>
+    </ul></p>
+    <!-- Add academics content and images here -->
+  </section>
+
+  <!-- Admissions Section -->
+  <section id="admissions">
+    <h2>Admissions</h2>
+    <p>Thank you for considering Faulu School for your child's education. Our admissions process is designed to ensure a smooth and positive experience for both students and parents.</p>
+    <h3>Admission Process</h3>
+    <p>To apply for admission, please follow these steps:</p>
+    <ol>
+      <li>Complete the online application form.</li>
+      <li>Submit required documents, including academic transcripts and recommendation letters.</li>
+      <li>Attend an admissions interview, if applicable.</li>
+    </ol>
+    <h3>Admission Requirements</h3>
+    <p>We welcome students who demonstrate:</p>
+    <ul>
+      <li>Academic excellence</li>
+      <li>Curiosity and eagerness to learn</li>
+      <li>Positive character and behavior</li>
+    </ul>
+    <button onclick="location.href='#application-form'">Apply Now</button>
+
+    <!-- Admission Form Section -->
+    <section id="application-form">
+      <h3>Application Form</h3>
+      <p>Complete the online application form to initiate the admission process. We look forward to welcoming your child to Faulu School.</p>
+   <!-- Application Form -->
+    <form action="#" method="post">
+      <!-- Personal Information -->
+      <label for="fullName">Full Name:</label>
+      <input type="text" id="fullName" name="fullName" required>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="phone">Phone:</label>
+      <input type="tel" id="phone" name="phone" required>
+      <label for="address">Address:</label>
+      <input type="text" id="address" name="address">
+      <label for="previousSchool">Previous School:</label>
+      <input type="text" id="previousSchool" name="previousSchool">
+      <label for="comments">Additional Comments:</label>
+      <textarea id="comments" name="comments" rows="4"></textarea>
+
+      <!-- Submit Button -->
+      <button type="submit">Submit Application</button>
+    </form>
+  </section>
+
+  <!-- Faculty Section -->
+  <section id="faculty">
+    <h2>Faculty</h2>
+    <p>Meet our dedicated faculty members who are the heart of our school. They bring a wealth of experience, passion, and expertise to the classroom, ensuring an enriching educational experience for every student</p>
+  </section>
+
+  <!-- Students Section -->
+  <section id="students">
+    <h2>Students</h2>
+    <p>Welcome, Faulu School students! This section is dedicated to providing you with the resources and information you need for a successful academic journey</p>
+
+    <h3>Resources for Students</h3>
+    <ul>
+      <li><a href="#class-schedule">Class Schedule</a></li>
+      <li><a href="#library">Library Resources</a></li>
+      <li><a href="#extracurricular">Extracurricular Activities</a></li>
+    </ul>
+
+    <!-- Class Schedule Section -->
+    <section id="class-schedule">
+      <h4>Class Schedule</h4>
+      <p>Stay organized with your class schedule. Find your upcoming classes and important dates...</p>
+      <!-- Add the class schedule or link to it here -->
+    </section>
+
+    <!-- Library Resources Section -->
+    <section id="library">
+      <h4>Library Resources</h4>
+      <p>Explore our extensive library resources to enhance your learning experience...</p>
+      <!-- Add information or links to library resources here -->
+    </section>
+
+    <!-- Extracurricular Activities Section -->
+    <section id="extracurricular">
+      <h4>Extracurricular Activities</h4>
+      <p>Get involved in various extracurricular activities to enrich your school life</p>
+  </section>
+
+  <!-- Parents Section -->
+  <section id="parents">
+    <h2>Parents</h2>
+    <p>Welcome, parents! This section is designed to provide you with information and resources to support your child's education journey at Faulu School</p>
+
+    <!-- Useful Links for Parents -->
+    <ul>
+      <li><a href="javascript:void(0);" onclick="scrollToSection('calendar')">School Calendar</a></li>
+      <li><a href="javascript:void(0);" onclick="scrollToSection('parent-portal')">Parent Portal</a></li>
+      <li><a href="javascript:void(0);" onclick="scrollToSection('volunteer')">Volunteer Opportunities</a></li>
+    </ul>
+
+    <!-- School Calendar Section -->
+    <section id="calendar">
+      <h3>School Calendar</h3>
+      <p>Stay informed about important school events and dates with our school calendar</p>
+      <!-- Display Calendar -->
+    <p>Here is a glimpse of our upcoming events:</p>
+    <ul>
+      <li>Open House - 27:11:2023</li>
+      <li>School Play - 16:01:2024</li>
+      <li>Parent-Teacher Conferences - 20:2:2024</li>
+      <!-- Add more upcoming events -->
+    </ul>
+    </section>
+
+    <!-- Parent Portal Section -->
+    <section id="parent-portal">
+      <h3>Parent Portal</h3>
+      <p>Access the parent portal to view your child's grades, assignments, and communicate with teachers...</p>
+     <!-- Buttons for Parent Portal Actions -->
+    <div>
+      <button onclick="scrollToSection('grades')">View Grades</button>
+      <button onclick="scrollToSection('assignments')">Assignments</button>
+      <button onclick="scrollToSection('communication')">Communication</button>
+    </div>
+
+    <!-- Grades Section -->
+    <section id="grades">
+      <h3>View Grades</h3>
+      <p>Check your child's academic progress and grades in this section...</p>
+    </section>
+
+    <!-- Assignments Section -->
+    <section id="assignments">
+      <h3>Assignments</h3>
+      <p>Stay updated on your child's assignments and upcoming tasks</p>
+    </section>
+
+    <!-- Communication Section -->
+    <section id="communication">
+      <h3>Communication</h3>
+      <p>Communicate with teachers and stay involved in your child's education
+    </section>
+
+    <!-- Volunteer Opportunities Section -->
+    <section id="volunteer">
+      <h3>Volunteer Opportunities</h3>
+      <p>Get involved in your child's school experience by exploring volunteer opportunities</p>
+       <!-- News/Blog Section -->
+  <section id="news">
+    <h2>News and Updates</h2>
+    <p>Stay informed about the latest happenings at our school. Explore articles, announcements, and more!</p>
+  <article>
+      <h3>Exciting News Title</h3>
+      <p>Date: [Publication Date]</p>
+      <details>
+        <summary>Read More...</summary>
+        <p>Additional information and details about the exciting news article. You can include paragraphs, images, or any content you'd like to expand on.</p>
+      </details>
+    </article>
+    
+     <!-- Events Section -->
+  <section id="events">
+    <h2>Events</h2>
+    <p>Stay updated on the latest school events and activities. Join us in building a vibrant school community!</p>
+
+    <!-- Upcoming Events -->
+    <div>
+      <h3>Upcoming Events</h3>
+      <ul>
+        <li>Event 1: 2:02:24 Prize Giving Day</li>
+        <li>Event 2:04:2024 Annual General Meeting</li>
+        <!-- Add more upcoming events -->
+      </ul>
+    </div>
+
+    <!-- Past Events -->
+    <div>
+      <h3>Past Events</h3>
+      <ul>
+        <li>Event A: 02:05:2022 Interschool games</li>
+        <li>Event B: 19:9:2022 Talent show</li>
+        <!-- Add more past events -->
+      </ul>
+    </div>
+
+    <!-- Event Gallery-->
+    <div>
+      <h3>Event Gallery</h3>
+      <p>Explore moments from our recent events in the gallery below:</p>
+    <button onclick="scrollToSection('gallery')">View Gallery</button>
+    </div>
+  </section>
+
+  <!-- Gallery Section -->
+  <section id="gallery">
+    <h3>Gallery Section</h3>
+    <p>Images and memories captured during our school events
+  </section>
+  <!-- Add images to the gallery -->
+  <img src="Screenshot_20231127-001855~2.jpg" alt="Event Image 1" style="width: 300px; height: auto; margin-right: 10px;">
+  <img src="Screenshot_20231127-001849~2.jpg" alt="Event Image 2" style="width: 300px; height: auto; margin-right: 10px;">
+  <img src="Screenshot_20231127-001829~2.jpg" alt="Event Image 3" style="width: 300px; height: auto; margin-right: 10px;">
+  <!-- Donate Section -->
+  <section id="donate">
+    <h2>Support Our School</h2>
+    <p>Your contribution helps us provide quality education. Thank you for your support!</p>
+    
+    <!-- M-Pesa Donation Button -->
+    <p>To make a donation, send your contribution to our M-Pesa number:0120020000</p>
+    <!--The donations are used to help needy students in the school -->
+  </section>
+  <!-- Contact Section -->
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Feel free to reach out to us with any questions or inquiries. We're here to assist you!</p>
+
+    <!-- Contact Information -->
+    <div>
+      <p>Email: info@school.com</p>
+      <p>Phone: +123 456 7890</p>
+      <p>Address: [School Address]</p>
+    </div>
+
+    <!-- Buttons for Contact Actions -->
+    <div>
+      <button onclick="scrollToSection('send-message')">Send Message</button>
+      <button onclick="scrollToSection('visit-us')">Visit Us</button>
+    </div>
+
+    <!-- Send Message Section -->
+    <section id="send-message">
+      <h3>Send a Message</h3>
+      <p>Use the form below to send us a message:</p>
+<form action="#" method="post">
+      <label for="name">Your Name:</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="email">Your Email:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="message">Your Message:</label>
+      <textarea id="message" name="message" rows="4" required></textarea>
+
+      <button type="submit">Send Message</button>
+    </form>
+    </section>
+
+    <!-- Visit Us Section -->
+    <section id="visit-us">
+      <h3>Visit Us</h3>
+      <p>Come and visit our school! We look forward to welcoming you:</p>
+    </section>
+
+</body>
+</html>
